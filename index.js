@@ -17,7 +17,7 @@ function formListen(){
     </div>
   </li>`
     $(".shopping-list").append(newBox);
-    userText.val("");
+    
 });
 }
 //check fucntion
