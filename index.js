@@ -23,10 +23,9 @@ function formListen(){
 //check fucntion
 
 function checkingItem(){
- $('.shopping-item-toggle').on('click', function(event){
-   event.stopPropagation();
-  $(this).toggleClass('shopping-item__checked');
- });
+ $('.shopping-list').on('click','li', function(event){
+   $(this).find('.shopping-item').toggleClass("shopping-item__checked");
+});
 }
 //delete function
 
